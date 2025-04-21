@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flowerbee - Bouquet Bunga Cantik</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffaf0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f4a261;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .catalog {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+    .item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .item h3 {
+      margin: 10px 0 5px;
+    }
+    .item p {
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+    .item a {
+      display: inline-block;
+      padding: 8px 16px;
+      background: #2a9d8f;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Flowerbee</h1>
+    <p>Bouquet bunga cantik untuk momen spesialmu!</p>
+  </header>
+
+  <section class="catalog">
+    <div class="item">
+      <img src="https://source.unsplash.com/400x300/?bouquet,flower" alt="Bouquet Mawar">
+      <h3>Bouquet Mawar</h3>
+      <p>Rp 150.000</p>
+      <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Bouquet%20Mawar">Pesan via WhatsApp</a>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/400x300/?flower,bouquet,pink" alt="Bouquet Pink">
+      <h3>Bouquet Pink</h3>
+      <p>Rp 120.000</p>
+      <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Bouquet%20Pink">Pesan via WhatsApp</a>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/400x300/?flower,wrap" alt="Bouquet Mix">
+      <h3>Bouquet Mix</h3>
+      <p>Rp 170.000</p>
+      <a href="https://wa.me/6281234567890?text=Halo%20saya%20mau%20pesan%20Bouquet%20Mix">Pesan via WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Flowerbee. Pesan bouquet sekarang juga!
+  </footer>
+
+</body>
+</html>
